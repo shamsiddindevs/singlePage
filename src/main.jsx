@@ -8,9 +8,9 @@ import {Provider} from "react-redux";
 import Main from "./app/main";
 
 createRoot(document.getElementById("root")).render(
-  <Provider store={store}>
-    <App />
-    <ToastContainer position="top-center" />
-  </Provider>
-  // <Main/>
+  // <Provider store={store}>
+  //   <App />
+  //   <ToastContainer position="top-center" />
+  // </Provider>
+  <Main/>
 );
